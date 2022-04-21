@@ -11,6 +11,10 @@ function exercise07() {
   ];
 
   // Complete the code of the function
+  const usersString = JSON.stringify(users);
+  localStorage.setItem("ex-07-users", usersString);
 }
 
 export default exercise07;
+
+// exercise07();
